@@ -1,0 +1,100 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetResourceGroup": {
+		"value" : "!VNETRESOURCEGROUP!"
+	},
+	"numberOFinstance": {
+		"value"	: "!NUMBEROFINSTANCE!"
+	},
+	"startingSequence": {
+		"value" : "!STARTINGSEQUENCE!"
+	},
+	"userResourceGroup": {
+        "value" : "!USERRESOURCEGROUP!"
+	},
+    "newStorageAccountName": {
+		"value" : "!NEWSTORAGEACCOUNTNAME!"
+	},
+	"userImageStorageAccountName": {
+        "value" : "!USERSTORAGEACCOUNT!"
+    },
+    "userImageStorageContainerName" : {
+        "value" : "!USERIMAGECONTAINER!"
+    },
+    "userImageVhdName" : {
+        "value" : "!USERIMAGENAME!"
+    },
+    "userVHDStorageContainerName" : {
+        "value" : "!USERVHDCONTAINER!"
+    },
+	"storageType" : { 
+		"value": "!STORAGETYPE!"
+	},
+    "dnsNameForPublicIP" : {
+        "value" : "!DNSNAMEFORPIP!"
+    },
+	"dnsNameforLBIP": { 
+		"value" : "!DNSNAMEFORLBIP!"
+	},
+    "adminUserName": {
+        "value" : "!ADMINUSERNAME!"
+    },
+    "adminPassword": {
+        "value" : "!ADMINUSERPWD!"
+    },
+	"availabilitySetName": {
+		"value" : "!AVAILABILITYSETNAME!"
+	},
+	"loadBalancerName": {
+		"value" : "!LOADBALANCERNAME!"
+	},
+    "osType" : {
+        "value" : "!OSTYPE!"
+    },
+	"imagePublisher": {
+		"value" : "!IMAGEPUBLISHER!"
+	},
+	"imageOffer": {
+		"value" : "!IMAGEOFFER!"
+	},
+    "subscriptionId": {
+        "value" : "!SUBSCRIPTIONID!"
+    },
+    "location": {
+        "value" : "!LOCATION!"
+    },
+    "vmSize": {
+        "value": "!VMSIZE!"
+    },
+	"vmOSVersion": {
+		"value": "!VMOSVERSION!"
+	},
+    "publicIPAddressName": {
+        "value" : "!PIPADDRESSNAME!"
+    },
+	"publicIPAddressType": {
+		"value" : "!PUBLICIPADDRESSTYPE!"
+	},
+    "vmNamePrefix": {
+        "value" : "!VMNAMEPREFIX!"
+    },
+	"computerNamePrefix": {
+		"value" : "!COMPUTERNAMEPREFIX!"
+	},
+    "virtualNetworkName": {
+        "value" : "!VNETNAME!"
+    },
+    "nicName": {
+        "value" : "!NICNAME!"
+    },
+	"subnetName": {
+        "value" : "!SUBNETNAME!"
+    },
+	"subnetPrefix": { 
+		"value" : "!SUBNETPREFIX!"
+	}
+  }
+}
+
